@@ -28,6 +28,8 @@ URxvt*color12: RoyalBlue
 URxvt*scrollBar: false
 
 # copy paste
+# install xclip and copy the perl script
+# cp urxvtclip /usr/lib/urxvt/perl/clipboard
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
