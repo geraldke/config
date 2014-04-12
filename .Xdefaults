@@ -1,0 +1,33 @@
+# transparency
+URxvt*transparent: true
+
+# tint
+URxvt*tintColor: Green
+
+# shading
+#URxvt*shading: 50
+
+# scroll back lines
+URxvt*saveLines: 10000
+
+# font color (default is black)
+URxvt*foreground: White
+
+# background color
+URxvt*background: Green
+
+# fonts
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+
+# directory colors
+URxvt*color4: RoyalBlue
+URxvt*color12: RoyalBlue
+
+# scroll bar
+URxvt*scrollBar: false
+
+# copy paste
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
