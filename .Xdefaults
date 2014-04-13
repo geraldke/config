@@ -4,8 +4,8 @@ URxvt*transparent: true
 # tint
 URxvt*tintColor: Green
 
-# shading
-#URxvt*shading: 50
+# shading (no sense in using this with tint)
+# URxvt*shading: 50
 
 # scroll back lines
 URxvt*saveLines: 10000
